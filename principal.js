@@ -1,5 +1,5 @@
 var output = document.getElementById("mensagem-saida2")
-output.value = "Nenhum texto foi digitado!!"
+output.value = "Nenhum texto digitado por enquanto!!"
 
 function criptografa() {
 	
