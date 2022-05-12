@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head> 
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Criptógrafo 2022</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+
+		<main>
+
+			<div class="logo">
+				<h1><img src="Logo.png"></h1>
+			</div>
+			
+			<ul class="setores">
+				<li>
+					<p class="aviso">digite apenas letras minúsculas e sem acento</p>
+					<form method="get">
+						<textarea cols="70" rows="10" name="entrada" id="mensagem" class="input-padrao" placeholder = "digite aqui seu texto" autofocus></textarea>
+						<input type="button" value="Criptografar" id="enviado" class="botao2" onclick="criptografa()">
+					</form>
+				</li>
+				<li>
+					<form method="get">
+					<input type="button" value="Descriptografar" class="botao3" onclick="descriptografa()">
+					</form>
+				</li>
+				<li >
+					<form method="get" class="terceirobox">
+					<textarea cols="70" rows="12" name="saida" id="mensagem-saida" class="input-padrao2"></textarea>
+					<textarea cols="70" rows="3" name="saida2" id="mensagem-saida2" class="input-padrao2"></textarea>
+					<img src="figura_misterio.svg" class="imagem-chaves">
+					<input type="button" value="Copiar/Colar" class="botao2" onclick="copiar()">
+					</form>
+				</li>
+			</ul>
+			
+			<footer>
+				
+				<p class="copyright">&copy; Alura - Oracle Next Education by Agnaldo Pinheiro - 2022</p>
+				
+			</footer>
+
+		</main>
+
+		<script src="principal.js"></script>
+	
+	</body>
+
+</html>
